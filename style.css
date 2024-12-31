@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+h1, h2, h3, li, ul, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+body {
+  margin: 0;
+  padding: 0rem 1.5rem;
+  height: 100vh;
+}
+
+header {
+  padding: 2.2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.visual-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.logo {
+  width: 9.1rem;
+}

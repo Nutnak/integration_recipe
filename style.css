@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 }
 
-h1, h2, h3, li, ul, p {
+h1, h2, h3, h4, li, ul, p {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -106,4 +106,28 @@ header {
   width: 4rem;
   height: 4rem;
   align-self: flex-end;
+}
+
+/* Section */
+
+.section-meal-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.title-section {
+  padding: 2.8rem 0rem;
+  font-size: 2.5rem;
+}
+
+/* Articles */
+
+.user-stars {
+  padding: 1rem 0rem;
+}
+
+.title-article{
+  font-family: "Inter", serif;
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
 }

@@ -15,6 +15,8 @@ body {
   height: 100vh;
 }
 
+/* Header */
+
 header {
   padding: 2.2rem 0rem;
   display: flex;
@@ -39,4 +41,69 @@ header {
 
 .logo {
   width: 9.1rem;
+}
+
+/* Home section */
+
+.home-section-container {
+  background-color: #E3F1FF;
+  border-radius: 1rem;
+}
+
+.home-section-img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+}
+
+.home-section-content-container {
+  padding: 3.5rem 3.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-section-information {
+  font-family: "Inter", serif;
+}
+
+.home-section-information::before {
+  content: "";
+  background-image: url('/assets/icons/trending-up-icon.svg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.4rem;
+  vertical-align: middle;
+  padding-right: .4rem;
+}
+
+.home-section-title {
+  font-family: "Playfair", serif;
+  font-size: 3.6rem;
+  line-height: 3.5rem;
+  padding: 1.2rem 0rem;
+
+}
+
+.home-section-content {
+  font-family: "Inter", serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  padding-bottom: 1.2rem
+
+}
+
+.home-section-more {
+  content: "";
+  background-image: url('/assets/icons/arrow-right-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 4rem;
+  height: 4rem;
+  align-self: flex-end;
 }
